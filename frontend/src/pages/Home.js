@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Note from '../components/Note'
 
 const Home = () => {
     const [notes, setNotes] = useState(null)
@@ -16,7 +17,7 @@ const Home = () => {
     return (<div>
         <div className="notes">
             {notes && notes.map((note) => {
-                return <p key={note._id}>{note.title}</p>
+                return <Note key={note._id} note={note} />
             })}
         </div>
     </div>)

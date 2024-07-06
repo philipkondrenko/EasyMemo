@@ -1,0 +1,19 @@
+nav {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.notes {
+    width: min(500px, 90%);
+}
+
+.note {
+    margin: 10px 0 0 0;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: lightgoldenrodyellow;
+}
