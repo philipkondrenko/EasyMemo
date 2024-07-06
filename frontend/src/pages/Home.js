@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Note from '../components/Note'
+import NoteForm from "../components/NoteForm"
 
 const Home = () => {
     const [notes, setNotes] = useState(null)
@@ -14,12 +15,13 @@ const Home = () => {
         fetchNotes()
     }, [])
 
-    return (<div>
+    return (<div className="container">
         <div className="notes">
             {notes && notes.map((note) => {
                 return <Note key={note._id} note={note} />
             })}
         </div>
+        <NoteForm />
     </div>)
 }
 
