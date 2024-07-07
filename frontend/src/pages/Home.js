@@ -16,12 +16,13 @@ const Home = () => {
     }, [])
 
     return (<div className="container">
+        <NoteForm />
+        <h4>All Notes</h4>
         <div className="notes">
             {notes && notes.map((note) => {
                 return <Note key={note._id} note={note} />
             })}
         </div>
-        <NoteForm />
     </div>)
 }
 
