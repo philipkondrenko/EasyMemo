@@ -1,6 +1,8 @@
-import { useState } from "react"
+import { useState } from 'react'
+import { useNotesContext } from '../hooks/useNotesContext'
 
 const NoteForm = () => {
+    const { dispatch } = useNotesContext()
     const [title, setTitle] = useState('')
     const [description, setDescription] = useState('')
     const [error, setError] = useState(null)
@@ -25,6 +27,7 @@ const NoteForm = () => {
             setDescription('')
             setError(null)
             console.log('new note added', json)
+            dispatch({ type: 'CREATE_NOTE', payload: json })
         }
     }
 
