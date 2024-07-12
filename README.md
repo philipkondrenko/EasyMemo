@@ -7,20 +7,17 @@
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## Usage
+Start frontend server
 ```
-# Clone this repository
-$ git clone https://github.com/philipkondrenko/Note-App
-
-# cd into the repository
-$ cd Note-App
-
-# cd into the frontend folder
-$ cd frontend
-
-# Install dependencies
-$ npm install
-
-# Run React server
-$ npm start
-
+git clone https://github.com/philipkondrenko/Note-App
+cd Note-App
+cd frontend
+npm install
+npm start
+```
+Start backend server
+```
+cd backend
+npm install
+node server.js
 ```
