@@ -8,7 +8,7 @@
 
 ## Usage
 Clone repository and change environment variables
->Change the MONGO_URL and PORT variables
+>Create a .env file and add variables MONGO_URL and PORT
 ```
 git clone https://github.com/philipkondrenko/Note-App
 cd Note-App
