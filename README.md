@@ -17,12 +17,12 @@ cd EasyMemo
 cd frontend
 # create .env file and add MONGO_URL and PORT variables
 ```
->Start frontend server
+>Install dependencies and start frontend server
 ```
 npm install
 npm start
 ```
->Start backend server
+>Install dependencies and start backend server
 ```
 cd backend
 npm install
