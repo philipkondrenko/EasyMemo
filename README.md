@@ -7,10 +7,15 @@
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## Usage
-Start frontend server
+Clone repository and change environment variables
+>Change the MONGO_URL and PORT variables
 ```
 git clone https://github.com/philipkondrenko/Note-App
 cd Note-App
+```
+
+Start frontend server
+```
 cd frontend
 npm install
 npm start
