@@ -7,19 +7,22 @@
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## Usage
-Clone repository
+>Clone repository
 ```
-git clone https://github.com/philipkondrenko/Note-App
-cd Note-App
+git clone https://github.com/philipkondrenko/EasyMemo
+cd EasyMemo
 ```
-Start frontend server
->Create a .env file and add variables MONGO_URL and PORT
+>Create a .env file
 ```
 cd frontend
+# create .env file and add MONGO_URL and PORT variables
+```
+>Start frontend server
+```
 npm install
 npm start
 ```
-Start backend server
+>Start backend server
 ```
 cd backend
 npm install
